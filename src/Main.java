@@ -11,13 +11,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-//        ArrayList<String> arrayList=new ArrayList<>();
-//        String name="text.txt";
-//        Scanner scanner=new Scanner(new File(name));
-//        while (scanner.hasNext()) {
-//         arrayList.add(scanner.next().replace("mother","parent").replace("father","parent"));
-//        }
-//        System.out.println(arrayList);
+        ArrayList<String> arrayList=new ArrayList<>();
+        String name="text.txt";
+        Scanner scanner=new Scanner(new File(name));
+        while (scanner.hasNext()) {
+         arrayList.add(scanner.next().replace("mother","parent").replace("father","parent"));
+        }
+        System.out.println(arrayList);
 
         Path path= Paths.get("russian.txt");
         try {
