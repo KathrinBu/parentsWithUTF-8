@@ -1,4 +1,4 @@
-mother washing window,
-father playing with cat,
-cat is unhappy,
-mother and father start to catch him
+mother (washing) window,
+father] playing <with> cat, {x=y)
+cat is {unhappy},
+mother and father <start> to catch him
