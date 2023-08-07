@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         task1();
         task2();
+
     }
         static void task1(){
         try {
